@@ -1,2 +1,6 @@
-# tod
-Truth or dare
+# TOD
+### Truth or dare
+## Installation
+## Development
+## Test
+# Road map
