@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "truthordare-database": {
+      "hosting": {
+        "tod": [
+          "truthordare-database"
+        ]
+      }
+    }
+  }
+}
