@@ -1,5 +1,5 @@
 # TOD (Truth or dare)
-Play it [here](http://a13ks3y.github.io/tod).
+Play it [here](http://a13ks3y.github.io/tod/index.html).
 ## Installation
 ## Development
 ## Test
