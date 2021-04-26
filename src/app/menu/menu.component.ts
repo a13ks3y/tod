@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-	isHidden: boolean = false
+	public isHidden: boolean = false
 
   constructor() { }
 

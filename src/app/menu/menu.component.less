@@ -1,86 +1,81 @@
-
+// @todo: move to other file on global level (animations.less?)
 @keyframes colorchange {
       0% {
-        
+
         color: red;
       }
-      
+
       10% {
-        
+
         color: orange;
       }
-      
+
       20% {
-        
+
         color: yellow;
       }
-      
+
       30% {
-        
+
         color: green;
       }
-      
+
       40% {
-        
+
         color: lightblue;
       }
-      
+
       50% {
-        
+
         color: blue;
       }
-      
+
       60% {
-        
+
         color: purple;
       }
-      
+
       70% {
-        
+
         color: white;
       }
       80% {
-     
+
         color: black;
       }
-      
+
       90% {
-     
+
         color: maroon;
       }
-      
+
       100% {
-        
+
         color: #f90;
       }
     }
-
-
 .tod-menu-header {
-  background: lightpink;
+  background: black;
+  color: white;
   span {
     font-size: 1.666rem;
     font-family: monospace;
     font-weight: bold;
   }
   .fa.fa-bars {
-  margin: 1.666rem;
-  background: pink;
-  padding: 0.666rem;
-  border: 1px solid white;
-  //animation: colorchange 20s infinite;
-}
+    margin: 1.666rem;
+    background: #f90;
+    padding: 0.666rem;
+    border: 1px solid white;
+  }
 }
 
 .tod-menu {
-
-    padding: 0.666rem;
-    padding-left: 0;
-    background: #ffFFd0;
+    padding: 0.666rem 0.666rem 0.666rem 0;
     transform: translateX(0%);
     transition: transform 1.333s ease-out;
   &.hidden {
-    transform: translateX(-366%) scaleX(6);
+    transform: translateX(-200%);
     transition: transform 1.666s ease-out;
     li {
       //transform: translateX(55%) scaleX(0.1);
@@ -92,23 +87,23 @@
   ul {
     list-style: none;
     text-align: center;
-    padding-left: 0;
+    padding: 1.666rem 6.66rem;
     li {
+      display: block;
       padding: 0.666rem;
-      margin: 0.666rem;
-      margin-left: 0;
-
+      margin: auto 0.666rem;
 
       font-size: 1.666rem;
-      background: lime;
-      color: white;
+      background: black;
+      border: 1px solid #f90;
       text-decoration: none;
       font-family: monospace;
-
-
     }
-    li a, li:hover {
-   
+    li a, li a:hover {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      //animation: colorchange 20s infinite;
+
 
     }
   }

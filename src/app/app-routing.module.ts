@@ -8,7 +8,7 @@ import {QuestionsComponent} from "./questions/questions.component";
 const routes: Routes = [
   {
     path: '',
-    component: MenuComponent
+    component: GameComponent
   },
   {
     path: 'game',
