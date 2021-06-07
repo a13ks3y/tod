@@ -22,4 +22,17 @@ describe('GameComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+
+  it('should has player names input set', () => {
+    const inputEl = fixture.nativeElement.querySelector('input[type=text]');
+    expect(inputEl).toBeTruthy();
+  });
+  it('should has player names list', () => {
+    const playerNameElements = fixture.nativeElement.querySelectorAll('.player-name');
+    expect(playerNameElements.length).toBeGreaterThan(0);
+  });
+  it('should start the game with first question', () => {
+
+  });
 });

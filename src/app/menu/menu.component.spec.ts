@@ -22,4 +22,9 @@ describe('MenuComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should has menu items', () => {
+    const menuItemElements  = fixture.nativeElement.querySelectorAll('li a');
+    expect(menuItemElements.length).toEqual(5);
+  })
 });

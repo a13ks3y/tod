@@ -22,4 +22,13 @@ describe('ActionsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should has default set of actions', () => {
+    expect(component.actions.length).toBeGreaterThan(0);
+  });
+
+  it('should show default set of actions', () => {
+    const actionElements = fixture.nativeElement.querySelectorAll('.action');
+    expect(actionElements.length).toBeGreaterThan(0);
+  });
 });

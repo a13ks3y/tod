@@ -1,3 +1,8 @@
 <ul>
-	<li>Todo: List of actions.</li>
+  <li>Todo: Actions Lists list (sic!). Let call it 'set'. List of action sets.</li>
+</ul>
+<ul>
+	<li *ngFor="let action of actions" class="action" title="{{action.description}}">
+    {{action.title}}
+  </li>
 </ul>
